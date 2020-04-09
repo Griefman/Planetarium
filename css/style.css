@@ -56,6 +56,14 @@ body {
   background-attachment: fixed;
 }
 
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+  body {
+    background-image: url("../img/body-background@2x.jpg");;
+  }
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -91,6 +99,14 @@ img {
   background-repeat: no-repeat, no-repeat;
   background-size: cover, cover;
   background-position: 50% 0, 50% 0;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+  .main-background::after {
+    background-image: url("../img/body-background-main-2@1x.png"), url("../img/body-background-main@2x.jpg");;
+  }
 }
 
 .button {
@@ -2369,6 +2385,14 @@ img {
   background-repeat: no-repeat;
   background-size: 430px 350px;
   background-position: 100% 100%;
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5),
+(min-resolution: 144dpi),
+(min-resolution: 1.5dppx) {
+  .page-main--intro {
+    background-image: url("../img/kid_VR@2x.png");
+  }
 }
 
 @media (max-width: 1023px) {
