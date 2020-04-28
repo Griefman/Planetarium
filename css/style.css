@@ -236,13 +236,6 @@ img {
 .page-header__wrapper {
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  max-width: 1278px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 40px;
-  box-sizing: border-box;
-  margin: 0 auto;
 }
 
 .page-header__list {
